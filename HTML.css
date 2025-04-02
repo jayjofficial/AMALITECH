@@ -1,0 +1,87 @@
+body{
+    background-color: peachpuff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(235, 96, 10);
+    padding: 0px 5px 0px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+   position: fixed;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    display: flex;
+    width: auto;
+}
+
+h1{
+    display: inline-flex;   
+    word-spacing: 1px;
+}
+
+.container{
+    word-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.button{
+    width: 65px;
+    height: 30px;
+    background-color: rgb(235, 96, 10);
+    border: 40px;
+    border-radius: 5px;
+    border-spacing: 50cm;
+}
+
+div,a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: grid;
+    grid-column: auto;
+    text-align: left;
+    align-items:start;
+    padding: 100px;
+}
+
+.img{
+    display: grid;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link{
+    display: grid;
+    width: 65px;
+    height: 30px;
+    border: 50px;
+    border-radius: 5px;
+    background-color: rgb(235, 96, 10);
+    padding: 5px 1px 5px 15px;
+    text-align: justify;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
